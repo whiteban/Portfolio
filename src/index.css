@@ -1,16 +1,23 @@
-* {
-  font-family: "Plus Jakarta Sans", sans-serif;
+body {
+  color: #fff;
+  background-color: #11071f;
   margin: 0;
-  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-body {
-  color: #fff;  
-  background-color:#11071F;
-  width: 1990px;
-  height: 4298px;
-  top: 102px;
-  left: -10px;
-  gap: 0px;
-  opacity: 0px;
+.body {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.work-section,
+.projects-section,
+.contact-section {
+  padding: 50px 20px;
+}
+
+.work-cards,
+.project-card {
+  display: flex;
+  gap: 20px;
 }
